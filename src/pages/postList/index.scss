@@ -1,0 +1,10 @@
+.postList {
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  padding-top: 60px;
+
+  &_container {
+    height: calc(100% - 100px);
+  }
+}

@@ -1,0 +1,9 @@
+.postPage {
+  min-height: 100vh;
+
+  &_header {
+    border-bottom: 2px solid var(--border-grey);
+    padding: 60px 0;
+    margin-bottom: 40px;
+  }
+}

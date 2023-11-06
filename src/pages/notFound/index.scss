@@ -1,0 +1,24 @@
+.notFound {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+  flex-direction: column;
+
+  &_header {
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--main-green);
+    margin-bottom: 30px;
+  }
+
+  &_text {
+    font-size: 20px;
+    width: 100%;
+    max-width: 300px;
+    margin: 0 0 30px;
+    text-align: center;
+  }
+}
