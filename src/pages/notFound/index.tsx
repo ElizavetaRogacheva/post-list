@@ -11,7 +11,7 @@ function NotFoundPage() {
       <button
         className="button"
         onClick={() => {
-          navigate('/');
+          navigate('/post-list');
         }}>
         На главную
       </button>

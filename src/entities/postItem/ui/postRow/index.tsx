@@ -7,7 +7,7 @@ import './index.scss';
 const PostItem: React.FC<Post> = function (post: Post) {
   const navigate = useNavigate();
   const onClickMoreBtn = function (): void {
-    navigate(`/post/${post.id}`);
+    navigate(`post/${post.id}`);
   };
   return (
     <div className="postContainer">

@@ -13,7 +13,7 @@ function PostDetails(data: Post) {
         <button
           className="button postPage_btn"
           onClick={() => {
-            navigate('/');
+            navigate('/post-list');
           }}>
           Назад
         </button>

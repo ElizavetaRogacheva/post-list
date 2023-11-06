@@ -8,9 +8,9 @@ const Routing = () => {
   return (
     <div className="container">
       <Routes>
-        <Route path="/" element={<PostList />} />
-        <Route path="*" element={<NotFoundPage />} />
-        <Route path="/post/:postId" element={<PostPage />} />
+        <Route path="/post-list" element={<PostList />} />
+        <Route path="/post-list/*" element={<NotFoundPage />} />
+        <Route path="/post-list/post/:postId" element={<PostPage />} />
       </Routes>
     </div>
   );
